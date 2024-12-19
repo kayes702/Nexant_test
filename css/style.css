@@ -1,0 +1,158 @@
+ /* ===========navber start========== */
+nav{
+    background: #F5F7FA;
+    padding: 25px 0px !important;
+}
+.navbar-nav{
+    column-gap: 50px;
+}
+.nav-link{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    color: #18191F;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.nav-button a{
+    padding: 10px 20px;
+    color: white;
+    background: #4CAF4F;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+    transition: .5s;
+}
+.nav-button a:hover{
+    background: transparent;
+    border-color: #4CAF4F;
+    color: #4CAF4F;
+}
+/* ===========navber end============ */
+/* ===========banner start============ */
+.banner{
+    background: #F5F7FA;
+    padding-bottom: 75px;
+}
+.bennar-content{
+    margin-top: 160px;
+}
+.bennar-content h1{
+    font-size: 64px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+.bennar-content h1 span{
+    color: #4CAF4F;
+}
+.bennar-content p{
+    padding: 16px 0px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #717171;
+}
+.bennar-content .common-button a{
+    padding: 14px 32px;
+    background: #4CAF4F;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 16px;
+    border: 1px solid #4CAF4F;
+    transition: .4s;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.bennar-content .common-button a:hover{
+    background: transparent;
+    color: #4CAF4F;
+}
+
+.bennar-image{
+    margin-top: 96px;
+}
+
+/* ===========banner end============ */
+/* ===========client-part start============ */
+
+.client{
+    text-align: center;
+}
+.client h1{
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #4D4D4D;
+    padding-top: 40px;
+}
+.client p{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #717171;
+    padding: 8px 0px;
+}
+.client ul{
+    display: flex;
+    column-gap: 140px;
+    justify-content: center;
+    list-style: none;
+    padding: 25px 0px;
+}
+
+/* ===========client-part end============ */
+/* ===========Community-part start============ */
+.Community-part{
+    padding: 40px 0px;
+}
+.community{
+    text-align: center;
+}
+.community h1{
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #4D4D4D;
+    width: 535px;
+    margin: 0 auto;
+}
+.community p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+.card{
+    padding: 40px 60px;
+    text-align: center;
+}
+.card img{
+    width: 20%;
+    margin: 0 auto;
+}
+.card h1{
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    color: #4D4D4D;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    width: 230px;
+    margin: 0 auto;
+}
+.card p{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #717171;
+}
+/* ===========Community-part end============ */
