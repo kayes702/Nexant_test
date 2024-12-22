@@ -21,7 +21,13 @@
 .i-center{
     align-items: center;
 }
-
+ul{
+    display: flex;
+    column-gap: 140px;
+    justify-content: center;
+    list-style: none;
+    padding: 25px 0px;
+}
 /* ===========common-css end========== */
 /* ===========navber start========== */
 nav{
@@ -62,7 +68,7 @@ nav{
 /* ===========banner start============ */
 .banner{
     background: #F5F7FA;
-    padding-bottom: 75px;
+    padding: 65px 0px;
 }
 
 .bennar-content h1{
@@ -82,22 +88,18 @@ nav{
     color: #717171;
 }
 
-.bennar-image{
-    margin-top: 96px;
-}
-
 /* ===========banner end============ */
 /* ===========client-part start============ */
 
 .client{
     text-align: center;
+    padding: 40px 0px;
 }
 .client h1{
     font-size: 36px;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     color: #4D4D4D;
-    padding-top: 40px;
 }
 .client p{
     font-size: 18px;
@@ -105,13 +107,6 @@ nav{
     font-weight: 400;
     color: #717171;
     padding: 8px 0px;
-}
-.client ul{
-    display: flex;
-    column-gap: 140px;
-    justify-content: center;
-    list-style: none;
-    padding: 25px 0px;
 }
 
 /* ===========client-part end============ */
@@ -169,7 +164,7 @@ nav{
 /* ===========Community-part end============ */
 /* ===========unlock-part start============ */
 .unlock{
-    padding-bottom: 40px;
+    padding: 40px 0px;
 }
 .unlock h1{
     font-size: 36px;
@@ -181,3 +176,65 @@ nav{
     padding-bottom: 0px;
 }
 /* ===========unlock-part end============ */
+/* ===========Achivment-part end============ */
+
+.achivment{
+    background: #F5F7FA;
+    padding: 64px 0px;
+    margin: 40px 0px;
+}
+.achivment h1{
+    font-size: 36px;
+    width: 380px;
+}
+.achivment p{
+    padding: 0px;
+    color: #18191F;
+    margin: 0px;
+}
+.rusalt-content{
+    display: flex;
+    column-gap: 90px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+.rusalt{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+.rusalt h2{
+    margin: 0;
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: #4D4D4D;
+}
+.rusalt p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #717171;
+}
+.last{
+    padding-left: 35px;
+}
+/* ===========Achivment-part end============ */
+/* ===========Customar-part end============ */
+.customar{
+    background: #F5F7FA;
+}
+.customar .bennar-content h3{
+    color: #4CAF4F;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+.customar ul{
+    justify-content: start;
+    column-gap: 30px;
+}
+.customar .meet{
+    align-self: center;
+}
+/* ===========Customar-part end============ */
