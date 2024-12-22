@@ -1,4 +1,29 @@
- /* ===========navber start========== */
+/* ===========common-css start========== */
+
+.common-button a{
+    padding: 18px 50px;
+    background: #4CAF4F;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 16px;
+    border: 1px solid #4CAF4F;
+    transition: .4s;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.common-button a:hover{
+    background: transparent;
+    color: #4CAF4F;
+}
+.i-center{
+    align-items: center;
+}
+
+/* ===========common-css end========== */
+/* ===========navber start========== */
 nav{
     background: #F5F7FA;
     padding: 25px 0px !important;
@@ -39,9 +64,7 @@ nav{
     background: #F5F7FA;
     padding-bottom: 75px;
 }
-.bennar-content{
-    margin-top: 160px;
-}
+
 .bennar-content h1{
     font-size: 64px;
     font-family: "Inter", sans-serif;
@@ -57,24 +80,6 @@ nav{
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: #717171;
-}
-.bennar-content .common-button a{
-    padding: 14px 32px;
-    background: #4CAF4F;
-    text-decoration: none;
-    color: white;
-    border-radius: 10px;
-    display: inline-block;
-    margin-top: 16px;
-    border: 1px solid #4CAF4F;
-    transition: .4s;
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-}
-.bennar-content .common-button a:hover{
-    background: transparent;
-    color: #4CAF4F;
 }
 
 .bennar-image{
@@ -120,20 +125,25 @@ nav{
 .community h1{
     font-size: 36px;
     font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: #4D4D4D;
     width: 535px;
     margin: 0 auto;
+    padding-bottom: 8px;
+
 }
 .community p{
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: #4D4D4D;
+    padding-bottom: 16px;
 }
 .card{
     padding: 40px 60px;
     text-align: center;
+    box-shadow: 0px 1px 2px -1px;
+    border: none;
 }
 .card img{
     width: 20%;
@@ -149,6 +159,7 @@ nav{
     width: 230px;
     margin: 0 auto;
 }
+
 .card p{
     font-size: 14px;
     font-family: "Inter", sans-serif;
@@ -156,3 +167,17 @@ nav{
     color: #717171;
 }
 /* ===========Community-part end============ */
+/* ===========unlock-part start============ */
+.unlock{
+    padding-bottom: 40px;
+}
+.unlock h1{
+    font-size: 36px;
+    width: 580px;
+}
+.unlock p{
+    width: 660px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+/* ===========unlock-part end============ */
