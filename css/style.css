@@ -21,13 +21,7 @@
 .i-center{
     align-items: center;
 }
-ul{
-    display: flex;
-    column-gap: 140px;
-    justify-content: center;
-    list-style: none;
-    padding: 25px 0px;
-}
+
 /* ===========common-css end========== */
 /* ===========navber start========== */
 nav{
@@ -107,6 +101,13 @@ nav{
     font-weight: 400;
     color: #717171;
     padding: 8px 0px;
+}
+.client ul{
+    display: flex;
+    column-gap: 140px;
+    justify-content: center;
+    list-style: none;
+    padding: 25px 0px;
 }
 
 /* ===========client-part end============ */
@@ -232,10 +233,14 @@ nav{
     font-family: "Inter", sans-serif;
     font-weight: 600;
 }
-.customar ul{
-    justify-content: start;
+.customar .bennar-content ul{
+    display: flex;
     column-gap: 30px;
+    justify-content: start;
+    list-style: none;
+    padding: 25px 0px;
 }
+
 .customar .meet{
     align-self: center;
     margin: 0px;
@@ -292,3 +297,63 @@ nav{
     padding-bottom: 16px;
 }
 /* ===========Demo-part end============ */
+/* ===========Footer-part end============ */
+.footer{
+    background: #263238;
+    padding: 65px 0px;
+}
+.footer .footer-content p{
+    color: #F5F7FA;
+    padding: 40px 0px;
+    width: 220px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    line-height: 35px;
+    margin: 0px;
+}
+.footer .footer-image{
+        display: flex;
+        column-gap: 16px;
+}
+.footer .footer-image img{
+    border-radius: 50%;
+    background: #515B60;
+    padding: 8px;
+    width: 35px;
+
+}
+.footer .colum h5{
+    color: #F5F7FA;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding-bottom: 6px;
+}
+.footer .colum ul{
+    list-style: none;
+    padding: 0px 5px;
+}
+.footer .colum ul li{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: #F5F7FA;
+    padding: 6px 0px;
+}
+.footer .colum .from input{
+    padding: 4px 9px;
+    border-radius: 5px;
+    background: #515B60;
+    border: transparent;
+    color: #D9DBE1;
+    position: relative;
+}
+.footer .colum .from button{
+    background: transparent;
+    border: transparent;
+    position: absolute;
+    right: 413px;
+    padding-top: 2px;
+}
+/* ===========Footer-part end============ */
