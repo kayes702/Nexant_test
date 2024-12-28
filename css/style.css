@@ -232,7 +232,7 @@ nav{
     font-family: "Inter", sans-serif;
     font-weight: 600;
 }
-.customar .bennar-content ul{
+.customar .bennar-content .customar-logo ul{
     display: flex;
     column-gap: 30px;
     justify-content: start;
@@ -296,7 +296,7 @@ nav{
     padding-bottom: 16px;
 }
 /* ===========Demo-part end============ */
-/* ===========Footer-part end============ */
+/* ===========Footer-part start============ */
 .footer{
     background: #263238;
     padding: 65px 0px;
